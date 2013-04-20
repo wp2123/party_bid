@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>party_bid</title>
+    <link rel="stylesheet"  href="lib/jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.css" />
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+    <script src="js/create_activities_and_record_information.js"></script>
+    <script src="js/judge_status_of_button.js"></script>
+    <script src="js/create_the_activities_list.js"></script>
+    <script src="js/status_and_function_and_button_of_sign_up.js"></script>
+    <script src="js/receive_and_send_and_handle_massages.js"></script>
+
+</head>
+<body onload="get_all_activities_names('activities_list')">
+
+    <div data-role="page" id="home">
+        <div data-role="header" data-filter-theme="a">
+            <h2>活动列表</h2>
+            <button id="create_activities_of_home" onclick="if_create_button_available()" class="ui-btn-right">创建活动</button>
+        </div>
+        <div data-role="content">
+            <div>
+                <ul data-role="listview" id="activities_list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="create_activities_page">
+        <div data-role="header" data-filter-theme="a">
+            <a data-role="button" onclick="get_all_activities_names('activities_list')">返回</a>
+            <h2>创建活动</h2>
+        </div>
+        <div data-role="content">
+            <label for="activities_names">
+                活动名称
+            </label>
+            <input name="" id="activities_names" placeholder="" value="" type="text">
+            <button id="create_activities" onclick="create_activities()" disabled>创建</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="sign_up_page">
+        <div data-role="header" data-filter-theme="a">
+            <a data-role="button" onclick="get_all_activities_names('activities_list')">返回</a>
+            <h2 id="the_number_of_people">报名</h2>
+            <button  id="start_sign_up_button" onclick="start_sign_up()"><span id="start_sign_up">开始</span></button>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#page1" data-transition="fade" data-theme="" data-icon="">
+                            报名
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page1" data-transition="fade" data-theme="" data-icon="">
+                            竞价
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
