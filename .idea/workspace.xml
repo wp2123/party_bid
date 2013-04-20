@@ -43,10 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="115" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.9490334">
+            <state line="36" column="115" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-22.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.02529511">
               <folding />
             </state>
           </provider>
@@ -70,11 +79,11 @@
         <option value="$PROJECT_DIR$/js/status_and_function_and_button_of_sign_up.js" />
         <option value="$PROJECT_DIR$/function.txt" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/js/create_activities_and_record_information.js" />
         <option value="$PROJECT_DIR$/js/create_the_activities_list.js" />
         <option value="$PROJECT_DIR$/js/judge_status_of_button.js" />
         <option value="$PROJECT_DIR$/js/receive_and_send_and_handle_massages.js" />
+        <option value="$PROJECT_DIR$/js/application.js" />
       </list>
     </option>
   </component>
@@ -363,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="97" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/create_the_activities_list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="16" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
@@ -407,7 +409,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="115" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.9490334">
+        <state line="36" column="115" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-22.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.02529511">
           <folding />
         </state>
       </provider>
